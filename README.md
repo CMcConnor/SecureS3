@@ -1,18 +1,18 @@
-# CloudFormation scripts for Secure S3 deployment
+# CloudFormation scripts for secure S3 deployment
 CloudFormation templates for secure deployment of S3 buckets in AWS
 
 ## Description
 
-This reusable solution generates a private and encrypted AWS S3 Bucket leveraging AWS KMS while also enabling Amazon Macie to identify and alert on any private information held in S3 buckets within the account.
+This reusable solution generates a private and encrypted AWS S3 Bucket leveraging AWS KMS while also enabling Amazon Macie to identify and alert on any sensitive data held in S3 buckets within the account.
 
 ### kmsBucketWithMacie.yaml
-This AWS CloudFormation template creates an AWS KMS encryption key for S3, an encrypted S3 bucket leveraging the KMS key, and enables Amazon Macie to scan and alert on PI held in S3 buckets of the account.
+This AWS CloudFormation template creates an AWS KMS encryption key for S3, an encrypted S3 bucket leveraging the KMS key, and enables Amazon Macie to scan and alert on sensitive data held in S3 buckets of the account.
 
 ### kmsBucket.yaml
 This AWS CloudFormation template creates an encrypted S3 bucket leveraging an existing KMS key that must be entered as a parameter using the KMS key's ARN when deploying the bucket.
 
 ### macie.yaml
-This AWS CloudFormation template enables Macie within the deployed account to scan and alert on PI held within S3 buckets.
+This AWS CloudFormation template enables Amazon Macie within the deployed account to scan and alert on sensitive data held within S3 buckets.
 
 ## Pricing
 
