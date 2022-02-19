@@ -17,5 +17,7 @@ This AWS CloudFormation template enables Macie within the deployed account to sc
 ## Pricing
 
 [S3 pricing](https://aws.amazon.com/s3/pricing/?p=pm&c=s3&z=4)
+
 [KMS pricing](https://aws.amazon.com/kms/pricing/)
+
 [Macie pricing](https://aws.amazon.com/macie/pricing/)
