@@ -14,6 +14,14 @@ This AWS CloudFormation template creates an encrypted S3 bucket leveraging an ex
 ### macie.yaml
 This AWS CloudFormation template enables Amazon Macie within the deployed account to scan and alert on sensitive data held within S3 buckets.
 
+## AWS Service Descriptions
+
+[AWS S3](https://aws.amazon.com/s3/)
+
+[AWS KMS](https://aws.amazon.com/kms/)
+
+[Amazon Macie](https://aws.amazon.com/macie/)
+
 ## Pricing
 
 [S3 pricing](https://aws.amazon.com/s3/pricing/?p=pm&c=s3&z=4)
